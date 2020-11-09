@@ -1,0 +1,13 @@
+{
+    "value": {
+        "value": {
+            
+        },
+        "watched": [
+            "ref:04e1252d:/mnt/c/Users/Rishi/stack/dev/scala/hands-on-scala/ch10/bar/src",
+            "ref:1ad6ad2f:/mnt/c/Users/Rishi/stack/dev/scala/hands-on-scala/ch10/bar/resources"
+        ]
+    },
+    "valueHash": 631290014,
+    "inputsHash": -757723440
+}

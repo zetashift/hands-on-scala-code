@@ -1,0 +1,5 @@
+{
+    "value": "<p>Sometimes you want numbered lists:</p>\n<ol>\n<li>One</li>\n<li>Two</li>\n<li>Three\nSometimes you want bullet points:</li>\n</ol>\n<ul>\n<li>Start a line with a star</li>\n<li>Profit!</li>\n</ul>\n",
+    "valueHash": 1572826759,
+    "inputsHash": -701937306
+}

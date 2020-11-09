@@ -1,0 +1,15 @@
+{
+    "value": {
+        "value": {
+            
+        },
+        "watched": [
+            "ref:1799feb3:/mnt/c/Users/Rishi/stack/dev/scala/hands-on-scala/ch10/mill-static-build/post/1 - My First Post.md",
+            "ref:6b1ad350:/mnt/c/Users/Rishi/stack/dev/scala/hands-on-scala/ch10/mill-static-build/post/2 - My Second Post.md",
+            "ref:53a1c0c2:/mnt/c/Users/Rishi/stack/dev/scala/hands-on-scala/ch10/mill-static-build/post/3 - My Third Post.md",
+            "ref:850502ce:/mnt/c/Users/Rishi/stack/dev/scala/hands-on-scala/ch10/mill-static-build/post/4 - My Fourth Post.md"
+        ]
+    },
+    "valueHash": -1343541775,
+    "inputsHash": 2136410940
+}
