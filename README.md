@@ -9,3 +9,10 @@ Code and exercises solutions for the Li Haoyi's excellent Hands on Scala!
 - Ammonite & Mill
 - Async using Futures and parallel programming in Scala
 - Web scraping and querying web API's
+- Metals and Ammonite script need a comment in VSCode to specifiy which Scala version to use
+
+# Notes
+
+A lot was also done with Ammonite, so the code isn't complete.
+
+I had to use WSL2 for this, so running the code isn't easy, this repo is more for a quick reference anyway! 
