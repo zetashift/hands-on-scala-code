@@ -10,6 +10,7 @@ Code and exercises solutions for the Li Haoyi's excellent Hands on Scala!
 - Async using Futures and parallel programming in Scala
 - Web scraping and querying web API's
 - Metals and Ammonite script need a comment in VSCode to specifiy which Scala version to use
+- Cask, a Scala backend framework and WebSockets
 
 # Notes
 
