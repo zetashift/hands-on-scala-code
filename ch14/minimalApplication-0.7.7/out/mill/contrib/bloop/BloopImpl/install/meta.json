@@ -1,0 +1,14 @@
+{
+    "value": [
+        [
+            "app",
+            "ref:7507d7cf:/home/rishi/dev/scala/hands-on-scala-code/ch14/minimalApplication-0.7.7/.bloop/app.json"
+        ],
+        [
+            "app.test",
+            "ref:62713cca:/home/rishi/dev/scala/hands-on-scala-code/ch14/minimalApplication-0.7.7/.bloop/app.test.json"
+        ]
+    ],
+    "valueHash": -1418338227,
+    "inputsHash": -947885617
+}

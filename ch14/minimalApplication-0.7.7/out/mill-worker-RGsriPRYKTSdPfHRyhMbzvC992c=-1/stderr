@@ -1,0 +1,9 @@
+Exception in thread "MillServerActionRunner" java.lang.InterruptedException: sleep interrupted
+	at java.base/java.lang.Thread.sleep(Native Method)
+	at mill.main.MainRunner.watchAndWait(MainRunner.scala:52)
+	at mill.main.MainRunner.watchLoop2(MainRunner.scala:77)
+	at mill.main.MainRunner.runScript(MainRunner.scala:90)
+	at mill.MillMain$.main0(MillMain.scala:269)
+	at mill.main.MillServerMain$.main0(MillServerMain.scala:67)
+	at mill.main.Server.$anonfun$handleRun$1(MillServerMain.scala:154)
+	at java.base/java.lang.Thread.run(Thread.java:834)

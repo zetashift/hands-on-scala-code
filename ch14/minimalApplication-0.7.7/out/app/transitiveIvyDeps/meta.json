@@ -1,0 +1,88 @@
+{
+    "value": [
+        {
+            "dep": {
+                "module": {
+                    "organization": {
+                        "value": "com.lihaoyi"
+                    },
+                    "name": {
+                        "value": "cask"
+                    },
+                    "attributes": {
+                        
+                    }
+                },
+                "version": "0.7.7",
+                "configuration": {
+                    "value": "default(compile)"
+                },
+                "exclusions": [
+                    
+                ],
+                "publication": {
+                    "name": "",
+                    "type": {
+                        "value": ""
+                    },
+                    "ext": {
+                        "value": ""
+                    },
+                    "classifier": {
+                        "value": ""
+                    }
+                },
+                "optional": false,
+                "transitive": true
+            },
+            "cross": {
+                "$type": "mill.scalalib.CrossVersion.Binary",
+                "platformed": false
+            },
+            "force": false
+        },
+        {
+            "dep": {
+                "module": {
+                    "organization": {
+                        "value": "com.lihaoyi"
+                    },
+                    "name": {
+                        "value": "scalatags"
+                    },
+                    "attributes": {
+                        
+                    }
+                },
+                "version": "0.9.1",
+                "configuration": {
+                    "value": "default(compile)"
+                },
+                "exclusions": [
+                    
+                ],
+                "publication": {
+                    "name": "",
+                    "type": {
+                        "value": ""
+                    },
+                    "ext": {
+                        "value": ""
+                    },
+                    "classifier": {
+                        "value": ""
+                    }
+                },
+                "optional": false,
+                "transitive": true
+            },
+            "cross": {
+                "$type": "mill.scalalib.CrossVersion.Binary",
+                "platformed": false
+            },
+            "force": false
+        }
+    ],
+    "valueHash": 1487603923,
+    "inputsHash": -2084447503
+}

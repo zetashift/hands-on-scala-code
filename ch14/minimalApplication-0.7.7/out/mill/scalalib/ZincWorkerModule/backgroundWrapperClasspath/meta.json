@@ -1,0 +1,8 @@
+{
+    "value": [
+        "qref:0fce586b:/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/mill-scalalib-backgroundwrapper/0.8.0/mill-scalalib-backgroundwrapper-0.8.0.jar",
+        "qref:197368bc:/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
+    ],
+    "valueHash": 692175143,
+    "inputsHash": 2039839785
+}
