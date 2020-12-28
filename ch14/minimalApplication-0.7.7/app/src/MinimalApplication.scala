@@ -91,6 +91,6 @@ object MinimalApplication extends cask.MainRoutes {
       }
 
   }
-
   initialize()
 }
+

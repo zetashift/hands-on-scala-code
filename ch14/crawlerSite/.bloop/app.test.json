@@ -2,16 +2,16 @@
     "version": "1.1.2",
     "project": {
         "name": "app.test",
-        "directory": "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/app/test",
-        "workspaceDir": "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7",
+        "directory": "/home/rishi/dev/hands-on-scala-code/ch14/crawlerSite/app/test",
+        "workspaceDir": "/home/rishi/dev/hands-on-scala-code/ch14/crawlerSite",
         "sources": [
-            "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/app/test/src"
+            "/home/rishi/dev/hands-on-scala-code/ch14/crawlerSite/app/test/src"
         ],
         "dependencies": [
             "app"
         ],
         "classpath": [
-            "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/.bloop/out/app/classes",
+            "/home/rishi/dev/hands-on-scala-code/ch14/crawlerSite/.bloop/out/app/classes",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.7.4/utest_2.13-0.7.4.jar",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/requests_2.13/0.6.5/requests_2.13-0.6.5.jar",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/cask_2.13/0.7.7/cask_2.13-0.7.7.jar",
@@ -39,10 +39,10 @@
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.1.4/scala-collection-compat_2.13-2.1.4.jar"
         ],
-        "out": "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/.bloop/out/app.test",
-        "classesDir": "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/.bloop/out/app.test/classes",
+        "out": "/home/rishi/dev/hands-on-scala-code/ch14/crawlerSite/.bloop/out/app.test",
+        "classesDir": "/home/rishi/dev/hands-on-scala-code/ch14/crawlerSite/.bloop/out/app.test/classes",
         "resources": [
-            "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/app/test/resources"
+            "/home/rishi/dev/hands-on-scala-code/ch14/crawlerSite/app/test/resources"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -86,7 +86,7 @@
             "config": {
                 "home": "/home/rishi/.sdkman/candidates/java/current",
                 "options": [
-                    "-Duser.dir=/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7"
+                    "-Duser.dir=/home/rishi/dev/hands-on-scala-code/ch14/crawlerSite"
                 ]
             },
             "mainClass": [

@@ -1,7 +1,5 @@
 package app
 import io.undertow.Undertow
-import org.jsoup._
-import collection.JavaConverters._
 
 import utest._
 

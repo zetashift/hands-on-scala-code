@@ -2,10 +2,10 @@
     "version": "1.1.2",
     "project": {
         "name": "app",
-        "directory": "/home/rishi/dev/scala/hands-on-scala-code/ch14/minimalApplication-0.7.7/app",
-        "workspaceDir": "/home/rishi/dev/scala/hands-on-scala-code/ch14/minimalApplication-0.7.7",
+        "directory": "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/app",
+        "workspaceDir": "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7",
         "sources": [
-            "/home/rishi/dev/scala/hands-on-scala-code/ch14/minimalApplication-0.7.7/app/src"
+            "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/app/src"
         ],
         "dependencies": [
             
@@ -34,10 +34,10 @@
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.1.4/scala-collection-compat_2.13-2.1.4.jar"
         ],
-        "out": "/home/rishi/dev/scala/hands-on-scala-code/ch14/minimalApplication-0.7.7/.bloop/out/app",
-        "classesDir": "/home/rishi/dev/scala/hands-on-scala-code/ch14/minimalApplication-0.7.7/.bloop/out/app/classes",
+        "out": "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/.bloop/out/app",
+        "classesDir": "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/.bloop/out/app/classes",
         "resources": [
-            "/home/rishi/dev/scala/hands-on-scala-code/ch14/minimalApplication-0.7.7/app/resources"
+            "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/app/resources"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -64,7 +64,7 @@
             "config": {
                 "home": "/home/rishi/.sdkman/candidates/java/current",
                 "options": [
-                    "-Duser.dir=/home/rishi/dev/scala/hands-on-scala-code/ch14/minimalApplication-0.7.7"
+                    "-Duser.dir=/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7"
                 ]
             },
             "mainClass": [

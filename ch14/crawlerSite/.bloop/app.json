@@ -1,30 +1,26 @@
 {
     "version": "1.1.2",
     "project": {
-        "name": "app.test",
-        "directory": "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/app/test",
-        "workspaceDir": "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7",
+        "name": "app",
+        "directory": "/home/rishi/dev/hands-on-scala-code/ch14/crawlerSite/app",
+        "workspaceDir": "/home/rishi/dev/hands-on-scala-code/ch14/crawlerSite",
         "sources": [
-            "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/app/test/src"
+            "/home/rishi/dev/hands-on-scala-code/ch14/crawlerSite/app/src"
         ],
         "dependencies": [
-            "app"
+            
         ],
         "classpath": [
-            "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/.bloop/out/app/classes",
-            "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.7.4/utest_2.13-0.7.4.jar",
-            "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/requests_2.13/0.6.5/requests_2.13-0.6.5.jar",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/cask_2.13/0.7.7/cask_2.13-0.7.7.jar",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/scalatags_2.13/0.9.1/scalatags_2.13-0.9.1.jar",
+            "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/requests_2.13/0.6.5/requests_2.13-0.6.5.jar",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-library/2.13.3/scala-library-2.13.3.jar",
-            "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar",
-            "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.13/0.1.1/portable-scala-reflect_2.13-0.1.1.jar",
-            "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar",
-            "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.2/geny_2.13-0.6.2.jar",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/io/undertow/undertow-core/2.0.13.Final/undertow-core-2.0.13.Final.jar",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/upickle_2.13/1.2.0/upickle_2.13-1.2.0.jar",
+            "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.13.3/scala-reflect-2.13.3.jar",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/cask-util_2.13/0.7.7/cask-util_2.13-0.7.7.jar",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.13/0.2.1/sourcecode_2.13-0.2.1.jar",
+            "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.2/geny_2.13-0.6.2.jar",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final.jar",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jboss/xnio/xnio-api/3.3.8.Final/xnio-api-3.3.8.Final.jar",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jboss/xnio/xnio-nio/3.3.8.Final/xnio-nio-3.3.8.Final.jar",
@@ -39,10 +35,10 @@
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.25/slf4j-api-1.7.25.jar",
             "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-lang/modules/scala-collection-compat_2.13/2.1.4/scala-collection-compat_2.13-2.1.4.jar"
         ],
-        "out": "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/.bloop/out/app.test",
-        "classesDir": "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/.bloop/out/app.test/classes",
+        "out": "/home/rishi/dev/hands-on-scala-code/ch14/crawlerSite/.bloop/out/app",
+        "classesDir": "/home/rishi/dev/hands-on-scala-code/ch14/crawlerSite/.bloop/out/app/classes",
         "resources": [
-            "/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7/app/test/resources"
+            "/home/rishi/dev/hands-on-scala-code/ch14/crawlerSite/app/resources"
         ],
         "scala": {
             "organization": "org.scala-lang",
@@ -64,29 +60,12 @@
                 
             ]
         },
-        "test": {
-            "frameworks": [
-                {
-                    "names": [
-                        "utest.runner.Framework"
-                    ]
-                }
-            ],
-            "options": {
-                "excludes": [
-                    
-                ],
-                "arguments": [
-                    
-                ]
-            }
-        },
         "platform": {
             "name": "jvm",
             "config": {
                 "home": "/home/rishi/.sdkman/candidates/java/current",
                 "options": [
-                    "-Duser.dir=/home/rishi/dev/hands-on-scala-code/ch14/minimalApplication-0.7.7"
+                    "-Duser.dir=/home/rishi/dev/hands-on-scala-code/ch14/crawlerSite"
                 ]
             },
             "mainClass": [
@@ -108,6 +87,22 @@
                             "name": "geny_2.13",
                             "classifier": "sources",
                             "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/geny_2.13/0.6.2/geny_2.13-0.6.2-sources.jar"
+                        }
+                    ]
+                },
+                {
+                    "organization": "com.lihaoyi",
+                    "name": "pprint_2.13",
+                    "version": "0.6.0",
+                    "artifacts": [
+                        {
+                            "name": "pprint_2.13",
+                            "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.13/0.6.0/pprint_2.13-0.6.0.jar"
+                        },
+                        {
+                            "name": "pprint_2.13",
+                            "classifier": "sources",
+                            "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.13/0.6.0/pprint_2.13-0.6.0-sources.jar"
                         }
                     ]
                 },
@@ -272,6 +267,22 @@
                     ]
                 },
                 {
+                    "organization": "com.lihaoyi",
+                    "name": "ujson_2.13",
+                    "version": "1.2.0",
+                    "artifacts": [
+                        {
+                            "name": "ujson_2.13",
+                            "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/1.2.0/ujson_2.13-1.2.0.jar"
+                        },
+                        {
+                            "name": "ujson_2.13",
+                            "classifier": "sources",
+                            "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/1.2.0/ujson_2.13-1.2.0-sources.jar"
+                        }
+                    ]
+                },
+                {
                     "organization": "org.scala-lang.modules",
                     "name": "scala-collection-compat_2.13",
                     "version": "2.1.4",
@@ -401,38 +412,6 @@
                 },
                 {
                     "organization": "com.lihaoyi",
-                    "name": "pprint_2.13",
-                    "version": "0.6.0",
-                    "artifacts": [
-                        {
-                            "name": "pprint_2.13",
-                            "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.13/0.6.0/pprint_2.13-0.6.0.jar"
-                        },
-                        {
-                            "name": "pprint_2.13",
-                            "classifier": "sources",
-                            "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/pprint_2.13/0.6.0/pprint_2.13-0.6.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.scala-sbt",
-                    "name": "test-interface",
-                    "version": "1.0",
-                    "artifacts": [
-                        {
-                            "name": "test-interface",
-                            "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0.jar"
-                        },
-                        {
-                            "name": "test-interface",
-                            "classifier": "sources",
-                            "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/scala-sbt/test-interface/1.0/test-interface-1.0-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.lihaoyi",
                     "name": "cask_2.13",
                     "version": "0.7.7",
                     "artifacts": [
@@ -460,54 +439,6 @@
                             "name": "jboss-logging",
                             "classifier": "sources",
                             "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/jboss/logging/jboss-logging/3.3.2.Final/jboss-logging-3.3.2.Final-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.lihaoyi",
-                    "name": "utest_2.13",
-                    "version": "0.7.4",
-                    "artifacts": [
-                        {
-                            "name": "utest_2.13",
-                            "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.7.4/utest_2.13-0.7.4.jar"
-                        },
-                        {
-                            "name": "utest_2.13",
-                            "classifier": "sources",
-                            "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/utest_2.13/0.7.4/utest_2.13-0.7.4-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "org.portable-scala",
-                    "name": "portable-scala-reflect_2.13",
-                    "version": "0.1.1",
-                    "artifacts": [
-                        {
-                            "name": "portable-scala-reflect_2.13",
-                            "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.13/0.1.1/portable-scala-reflect_2.13-0.1.1.jar"
-                        },
-                        {
-                            "name": "portable-scala-reflect_2.13",
-                            "classifier": "sources",
-                            "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/org/portable-scala/portable-scala-reflect_2.13/0.1.1/portable-scala-reflect_2.13-0.1.1-sources.jar"
-                        }
-                    ]
-                },
-                {
-                    "organization": "com.lihaoyi",
-                    "name": "ujson_2.13",
-                    "version": "1.2.0",
-                    "artifacts": [
-                        {
-                            "name": "ujson_2.13",
-                            "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/1.2.0/ujson_2.13-1.2.0.jar"
-                        },
-                        {
-                            "name": "ujson_2.13",
-                            "classifier": "sources",
-                            "path": "/home/rishi/.cache/coursier/v1/https/repo1.maven.org/maven2/com/lihaoyi/ujson_2.13/1.2.0/ujson_2.13-1.2.0-sources.jar"
                         }
                     ]
                 }
